@@ -1,0 +1,188 @@
+.head h1{
+    margin-left: 30px;
+}
+
+*  {
+    margin: 0px;
+}
+body{
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction:row;
+    background-color: #ffffff;
+width: 100%;
+}
+header a:hover{
+    text-decoration: underline;
+    content: "";
+    display: table;
+    clear: both;
+}
+main{
+    text-align: center;
+    padding-bottom: 100px;
+    height: 530px;
+    background-image: url(https://kartinki.pics/pics/uploads/posts/2022-09/thumbs/1662402380_42-kartinkin-net-p-minimalizm-na-rabochem-stole-v-ofise-krasi-42.jpg);
+    color: #f2e49d;
+    font-size: 25px;
+    
+}
+footer{   
+
+    position: relative;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+header a {
+ 
+    margin-left: 100px;
+    color: #826442;
+    font-size: 25px;
+
+}
+.img_U {
+width: 50px;
+height: 50px;
+margin-right: 20px;
+
+}
+ 
+.aaa{
+    margin-left: 500px;
+}
+.head{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+p{
+    text-align: center;
+}
+.aa{
+    margin-left: 300px;
+}
+h1{
+    color: black;
+}
+h2{
+    padding: 150px 0px 20px ;
+}
+ul{
+    list-style-type:none
+}
+
+ul img{
+    width: 50px;
+    height: 45px;
+}
+ul li{
+    margin-top: 20px;
+}
+.yslyg{
+    background-color: #ffffff;
+}
+.ysl{
+    color: black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+}
+.rab{
+    background-image: url(img/photo_2023-12-20_21-49-51.jpg);
+background-size: 1900px;
+height: 800px;
+display: flex;
+justify-content: space-around;
+font-size: 28px;
+
+}
+.rabb{
+    padding-left: 200px;
+    color: #ebe6d3;
+text-align: center;
+padding-top: 400px;
+}
+.rabbb{
+    text-align: center;
+color: #ebe6d3;
+padding-top: 400px;
+}
+.foth2{
+    text-align: center;
+    color: #bd6ff1;
+}
+.f{
+    text-align: left;
+padding-left: 350px;
+font-size: 20px;
+}
+.tg{
+width: 70px;
+
+height: 70px;
+}
+.email{
+    width: 70px;
+    height: 70px;
+}
+footer a{
+    font-size: 20px;
+
+    text-align: left;
+    position: relative;
+}
+.conf{
+    padding-left: 100px;
+    margin-top: 50px;
+    text-align: center;
+    color:black;
+}
+.cont{
+    padding-left: 300px;
+    
+}
+.tgg{
+    padding-right: 170px;
+}
+.a{
+    padding-bottom: 50px;
+}
+.form{
+    text-align: center;
+    padding-right: 30px;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 40px;
+margin-right: 200px;
+}
+.fottt{
+    display: flex;
+    justify-content: space-around;
+
+}
+.but {
+    width: 208px;
+    margin-top: 10px;
+    height: 20px;
+}
+input{
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 4px;
+    height: 20px;
+    border: 1px solid #16d688;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: black;
+    color: white;
+}

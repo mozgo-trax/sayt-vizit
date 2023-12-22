@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stlyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix"> 
+            <a id= "logo" href="index.html"><span class = "pink" >сайт</span> <i>визитка</i></a> 
+        <nav id="mainnav">
+            <ul>
+        <li class="active"> <a href="uslugi.html"><i>услуги</i></a></li>
+        <li class="active"> <a href="o_nas.html"> <i>о нас</i></a></li>
+        <li class="active"> <a href="Clients.html"> <i> клиенты</i></a></li>
+        <li class="active"> <a href="cont.html"> <i> контакты</i></a></li>
+        
+            </ul>
+        </nav>
+        </header>
+<main>
+<form id="contact-form" action="">
+<div class="form__item">
+    <label for="name"> <i> Тема</i></label><br>
+        <select name="topic" id="topic">
+<option value="1">Заказать услуги</option>
+<option value="2">Оставить отзыв</option>
+<option value="3">Предложить сотрудничество</option>
+<option value="4">Другое</option>
+        </select><br>
+<div class="form__item">
+<label for="name" class="lab"><i>ФИО</i></label><br>
+<input type="text" id="name" placeholder="Ваше ФИО полностью" required="#">
+</div>
+
+</div>
+
+
+<div class="form__item">
+    <label for="name" class="lab"><i>Ваши контакты</i></label><br>
+<input type="email" id="name" placeholder="Email" required="#"><br>
+
+</div>
+
+
+<div class="form__item">
+<input type="tel" placeholder="Ваш номер телефона" required="#">       
+</div>
+
+
+
+<div class="form__item">
+    <input type="date" placeholder="Дата рождения" required="#">       
+    </div>
+
+<div class="form__item">
+    <input type="text" placeholder="Серия и номер паспорта" required="#">       
+    </div>
+
+<div class="form__item">
+<label for="texarea" class="lab"><i>Текст сообщения</i></label><br>
+<textarea name="" id="textarea" cols="30" rows="10" placeholder="Напишите что угодно" required="#"></textarea><br>
+</div>
+
+<div class="form__item">
+    <input type="submit" >
+    </div>
+</form>
+</main>
+
+    </div>
+<footer>
+    <p class="footer__block"> <a href="form.html"> Написать нам&#9650</a></p>
+        <p class="footer__block" >&copy; Новая компания</P>
+        <div class="footer__icons">
+            <a href="https://mail.ru/" target="_blank"> <img src="img/mailru.png" class="footer__img"></a>
+            <a href="https://vk.com/" target="_blank"> <img src="img/vk.png" class="footer__img"></a>
+            <a href="https://ok.ru/" target="_blank"> <img src="img/ok.png" class="footer__img"></a>
+</footer>
+
+</body>
+</html>
